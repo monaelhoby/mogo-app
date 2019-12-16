@@ -28,7 +28,7 @@ class App extends Component {
        <div>
        <PopupContainer/>
         <NavbarContainer/>
-        <BrowserRouter>
+        <HashRouter>
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/collection"  component={CollectionPage} />
@@ -37,7 +37,7 @@ class App extends Component {
           <Route path="/shoppingcart" component={ShoppingCartPage} />
           <Route path="/singleproduct" component={SingleProductPage} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
 
         <FooterContainer/>
        </div>
