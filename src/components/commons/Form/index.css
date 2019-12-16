@@ -1,0 +1,18 @@
+
+ input {
+    height: 45px;
+    padding: 5px;
+    width: 50%; }
+  
+input[type="submit"] {
+    background: #FE5A1A;
+    color: #fff;
+    border: 2px solid #FE5A1A;
+    margin-left: -5px;
+    cursor: pointer;
+    width: 35%; }
+  
+ input[type="submit"]:hover {
+    border: 2px solid #FE5A1A;
+    color: #FE5A1A;
+    background: #fff; }

@@ -1,0 +1,14 @@
+.unvisibility{
+  opacity: 1 !important;
+  z-index: 800 !important
+}
+.inputsearch{
+  position: absolute;
+    left: 230px;
+    top: 10px;
+    border: 0;
+    border-radius: 2px;
+    height:50px;
+    opacity:0;
+    z-index: -1
+  }

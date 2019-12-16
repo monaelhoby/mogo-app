@@ -1,0 +1,141 @@
+.NavItem{
+  background-color: inherit;
+  display: inline-block;
+  border: none !important;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 0px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #777;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.NavItem:active , .NavItem:hover {
+  border-bottom: 3px solid #fe5a1a !important;
+}
+
+.firstTabFirstul{
+  margin-top:50px;
+}
+.firstTabSmap {
+  color:#333;
+  font-weight: 600;
+  font-size:18px;
+}
+.Details {
+  margin-top: 20px;
+  font-weight: 400;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.75;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.Details_title {
+  font-weight: 600;
+  color: #333;
+}
+.instructions{
+  margin-top:50px;
+}
+.description {
+  padding: 7% 5%;
+  background-color: #f5f5f5;
+  border-top: none;
+  margin-left: 20px;
+}
+.description p,
+.description h6 {
+  font-size: 16px;
+  line-height: 1.75;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  color: #777;
+}
+.description p {
+  width: 80%;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Muli", sans-serif;
+  line-height: 1.75;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.description p strong {
+  color: #333;
+  font-weight: 600;
+}
+.description ul li,
+.description span {
+  list-style: none;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 600;
+  margin-top: 10px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.description ul li::before {
+  display: inline-block;
+  content: '';
+  margin-right: 12px;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: #fe5a1a;
+}
+.description span {
+  margin-top: 50px;
+}
+.description ul {
+  margin: 0 0 15px 30px;
+  width: 80%;
+}
+.first_word {
+  font-weight: 600;
+  color: #333;
+}
+.second_word {
+  font-weight: 600;
+  color: #777;
+}
+.tags div {
+  display: inline-block;
+  margin-top: 2%;
+  background-color: #fe5a1a;
+  color: #fff;
+  padding: 1% 2%;
+  margin-left: 5px;
+}
+.tags div:hover {
+  cursor: pointer;
+}
+.review_Customer strong {
+  font-size:30px;
+}
+.review .no a{
+  float:right;
+  margin-right:200px;
+}
+.review div a {
+  color: #fe5a1a;
+  font-weight: 600;
+}
+.review {
+  width: 100%;
+}
+.review div {
+  color: #777;
+  margin-top: 50px;
+}
+.review_Customer {
+  margin-top: 20px;
+}

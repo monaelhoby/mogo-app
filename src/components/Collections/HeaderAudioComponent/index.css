@@ -1,0 +1,59 @@
+.headerAudio {
+  margin-top: 50px;
+}
+
+.headerAudio a {
+  color: #777;
+}
+.headerAudio a:hover {
+  color: #fe5a1a;
+}
+.descriaption {
+  color: #ffffff;
+  margin-top: 5%;
+  padding: 0% 0%;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+}
+
+.descriaption .descriaption-image {
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  height: 350px;
+  width: 100%; }
+
+.descriaption .descriaption-image img {
+  width: 130%;
+  height: 350px;
+}
+.descriaption .descriaption-image img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.descriaption h1 {
+  line-height: 1.4;
+  font-weight: 700;
+  z-index: 3;
+  position: absolute;
+  margin-top: 0px;
+  padding: 7% 7%;
+}
+.descriaption p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  z-index: 3;
+  position: absolute;
+  width: 68%;
+  margin-top: 0px;
+  padding: 15% 7%;
+}

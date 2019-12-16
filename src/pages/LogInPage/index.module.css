@@ -1,0 +1,33 @@
+.loginpage {
+  text-align: center;
+}
+.loginpage {
+  margin-top: 5%;
+  padding: 3% 12%; }
+.login_header {
+  float: left;
+  text-align: left;
+}
+.login_header a i {
+  color: #ccc; }
+
+.login_header span {
+  color: #333;
+  font-weight: 100;
+  font-size: 15px; }
+.login_content {
+  margin-top: 70px;
+}
+.login_content h1 {
+  color: #333;
+  font-size: 55px;
+  font-weight: 600; }
+
+.login_content h1 a {
+  color: #777; }
+
+.login_content h1 samp {
+  color: #ccc; }
+
+.login_content h1 a:hover {
+  color: #fe5a1a; }

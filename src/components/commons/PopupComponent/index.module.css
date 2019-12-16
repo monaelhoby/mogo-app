@@ -1,0 +1,209 @@
+.popup {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 999999;
+  overflow: scroll;
+}
+
+.box {
+  position: relative;
+  left: 50%;
+  color: #fff;
+  background: #FE5A1A;
+  top: 0;
+  max-width: 600px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
+
+.box .wow {
+  width: auto !important;
+  height: auto !important; }
+
+
+  .box .close {
+   float: right;
+   cursor: pointer;
+   padding: 20px;
+   color: rgba(255, 255, 255, 0.6);
+   font-size: 20px; }
+
+ .content {
+  padding: 70px 80px 20px;
+  color: #FFF;
+  background: #FE5A1A;
+ }
+.content  h2 {
+  font-weight: 700;
+  font-size: 80px;
+  margin: auto;
+color: #FFF}
+.content  h2 span {
+  color:#FFF !important
+}
+ .content h2 sub {
+  margin-left: -50px;
+  font-size: 80px; }
+
+ .content h2 .parent {
+  font-size: 130px; }
+
+ .content h2 sup {
+  font-size: 50px; }
+
+.end,
+.middle {
+  display: block;
+  margin-top: 30px; }
+
+.end {
+  margin-top: 50px; }
+
+ .content p:first-of-type {
+  font-size: 26px;
+  line-height: 42px;
+  font-weight: bold; }
+
+  .content form {
+  display: block;
+  width: 100%;
+  margin-top: 40px; }
+
+  .content form input {
+  height: 45px;
+  display: inline; }
+
+  .content form input[type="text"] {
+  border: none;
+  background: #fff;
+  color: #AAA;
+  padding-left: 20px;
+  width: 60%; }
+
+ .content form input[type="submit"] {
+  background: #333;
+  color: #fff;
+  border: 2px solid #333;
+  width: 40%; }
+
+  .content form input[type="submit"]:hover {
+  background: #fff;
+  color: #333;
+  cursor: pointer; }
+
+.socailLinks {
+  margin-top: 50px;
+  margin-bottom: 20px;
+ }
+
+.socailLinks a {
+  height: 60px;
+    width: 60px;
+    border-radius:50%;
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  margin-right: 10px !important;
+  display: inline-block;
+  line-height: 60px; }
+
+
+.socailLinks a i {
+  font-size: 22px !important; }
+
+.socailLinks a:hover {
+  background: #fff !important;
+  color: #FE5A1A !important; }
+
+  /* The container */
+  .content .container {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 16px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      margin-top:50px
+  }
+
+  /* Hide the browser's default checkbox */
+  .content .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .content .container .checkmark {
+      position: absolute;
+      top: 0;
+      left: 20%;
+      height: 25px;
+      width: 25px;
+      background-color: transparent;
+      border-radius: 0 !important;
+          border: 2px solid #FFF
+  }
+  /* When the checkbox is checked, add a blue background */
+  .content .container input:checked ~ .checkmark {
+      border: 2px solid #FFF
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .content .container .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .content .container input:checked ~ .checkmark:after {
+      display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .content .container .checkmark:after {
+      left: 9px;
+      top: -5px;
+      width: 10px;
+      height: 18px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  }
+
+  /*Start Media Query*/
+  @media (max-width: 575px) {
+    .box {
+      width: 90%; }
+    .box .content {
+      padding: 70px 10px; } }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    .box {
+      width: 80%; }
+    .box .content {
+      padding: 70px 20px; } }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .box {
+      width: 80%; }
+    .box .content {
+      padding: 70px 40px; } }
+
+
+  .hide{
+        display:none !important;
+      }

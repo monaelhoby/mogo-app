@@ -1,0 +1,71 @@
+.quantity {
+    position: relative;
+    width: 100%; }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  
+  input[type=number] {
+    -moz-appearance: textfield; }
+  
+  .quantity input {
+    width: 70%;
+    height: 50px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-size: 22px;
+    font-weight: bold;
+    color: #b7b7b7; }
+  
+  .quantity input:focus {
+    outline: 0; }
+  
+  .quantityNav {
+    float: left;
+    position: relative;
+    height: 42px; }
+  
+  .quantityButton {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    color: #333;
+    font-size: 11px;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    border-radius: 50%;
+    background: #b7b7b7;
+    height: 18px !important;
+    width: 18px;
+    color: #FFF; }
+  
+  .quantityButton.quantityUp {
+    position: absolute;
+    height: 50%;
+    top: 0; }
+  
+  .quantityButton.quantityDown {
+    position: absolute;
+    bottom: -1px;
+    height: 50%; }
+  
+  .quantityNav {
+    opacity: 0; }
+  
+  .quantityNav:hover {
+    opacity: 1; 
+    background: #FE5A1A !important
+  }

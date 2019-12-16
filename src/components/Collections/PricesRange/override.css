@@ -1,0 +1,12 @@
+
+.input-range__slider {
+    appearance: none;
+    background: #fe5a1a;
+    border: 1px solid #fe5a1a;
+}
+
+.input-range__track--active {
+
+    background: #fe5a1a;
+
+}

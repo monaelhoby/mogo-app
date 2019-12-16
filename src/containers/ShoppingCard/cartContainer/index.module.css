@@ -1,0 +1,22 @@
+.shoppingCard {
+    padding-top: 20px;
+    padding-bottom: 80px; }
+  
+    .shoppingCard  h2 {
+    margin-bottom: 40px;
+    font-size: 56px;
+    color: #333;
+    font-weight: 700; }
+    .shoppingCard  button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .shoppingCard  button a {
+    padding: 10px 20px;
+    background: #1CC373;
+    border: 2px solid #1CC373;
+    color: #FFF; }
+  
+    .shoppingCard button a:hover {
+    background: #FFF;
+    color: #1CC373; }

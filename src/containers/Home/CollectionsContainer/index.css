@@ -1,0 +1,165 @@
+*{
+  transition: all .5s ease-in-out
+}
+
+.Products .row div {
+  padding-left: 0;
+  padding-right: 0; }
+
+.Products .row .float-left,
+.Products .row .float-right {
+  width: 50%; }
+.Products .row .float-left h3 ,
+.Products .row .float-left .text h5{
+  color: #333
+}
+.Products .row .float-left,
+.Products .row .float-right,
+.Products .row .oneImage,
+.Products .row .heighestImg {
+  position: relative;
+  overflow: hidden; }
+
+.Products .row .float-left {
+  background: white; }
+
+.Products .row .float-right {
+  background: url("//cdn.shopify.com/s/files/1/2235/6053/files/promobox-02_399c6903-2f5e-4b92-8237-e28c8c4d1291_640x.jpg?v=1505756929");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.Products .row .oneImage {
+  background: #3bc7f5; }
+
+.Products .row .heighestImg {
+  background: #ff7c2a; }
+  .Products .row .float-left .overlay {
+    background: rgba(255, 255, 255, 0.6); }
+  
+  .Products .row .float-right .overlay {
+    background: rgba(0, 0, 0, 0.8); }
+  
+  .Products .row .heighestImg .overlay {
+    background: rgba(255, 124, 42, 0.7); }
+  
+  .Products .row .oneImage .overlay {
+    background: rgba(59, 199, 245, 0.7); }
+
+    .Products .row .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        text-align: center;
+        z-index: 4;
+        opacity: 0; }
+    .Products .row .overlay .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 5;
+        overflow: hidden;
+        height: 80px;
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0); }
+
+.twoImages{
+  width:100%
+}
+
+.Products .row h5,
+.Products .row p {
+  font-weight: 700;
+  color: #fff;
+  border-bottom: none !important
+ }
+
+.Products .row h5 strong,
+.Products .row p strong {
+  transition: all .6s ease-in-out; }
+
+
+.Products .row .twoImages p span {
+  color: #FE5A1A; }
+
+.Products .row h3 {
+  position: absolute;
+  left: 10%;
+  top: 60px;
+  z-index: 2;
+  font-weight: 700;
+  color: #fff; }
+
+.Products .row img {
+  transition: all .7s ease-in-out; }
+
+.Products .row .overlay .text p {
+  height: 30px;
+  overflow: hidden; }
+
+.Products .row .overlay .text p strong {
+  display: block;
+  margin-top: 30px; }
+
+.Products .row .overlay .text h5 {
+  font-size: 28px;
+  height: 35px;
+  overflow: hidden;
+  margin-bottom: 0; }
+
+.Products .row .overlay .text h5 strong {
+  display: block;
+  margin-top: 80px; }
+
+.Products .row .float-left:hover h3,
+.Products .row .oneImage:hover h3,
+.Products .row .heighestImg:hover h3,
+.Products .row .float-right:hover h3 {
+  opacity: 0; }
+
+.Products .row .float-left:hover img,
+.Products .row .oneImage:hover img,
+.Products .row .heighestImg:hover img {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px); }
+
+.Products .row .float-right:hover img {
+  -webkit-transform: translateX(10px) translateY(5px);
+  -moz-transform: translateX(10px) translateY(5px);
+  -o-transform: translateX(10px) translateY(5px);
+  transform: translateX(10px) translateY(5px); }
+
+.Products .row .float-left:hover h5 strong,
+.Products .row .float-right:hover h5 strong,
+.Products .row .oneImage:hover h5 strong,
+.Products .row .heighestImg:hover h5 strong {
+  margin-top: 0; }
+
+.Products .row .float-left:hover p .all,
+.Products .row .float-right:hover p .all,
+.Products .row .oneImage:hover p .all,
+.Products .row .heighestImg:hover p .all {
+  margin-top: -6px; }
+
+.Products .row .float-left:hover .overlay,
+.Products .row .float-right:hover .overlay,
+.Products .row .oneImage:hover .overlay,
+.Products .row .heighestImg:hover .overlay {
+  opacity: 1; }
+
+  .Products .row .oneImage .text p ,
+  .Products .row .heighestImg .text p{
+    color: #FFF !important
+  }
+@media (max-width: 575px) {
+  .Products .row .float-left,
+  .Products .row .float-right {
+    width: 100%; } }

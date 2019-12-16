@@ -1,0 +1,10 @@
+.flickity-page-dots{
+  display: none;
+}
+.flickity-button {
+  background-color: #ccc;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 20px;
+  width: 20px;
+}

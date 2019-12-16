@@ -1,0 +1,24 @@
+.main-content {
+  width: 130%;
+  font-family: "Muli",sans-serif;
+}
+.main-content2 {
+  margin-top: 3%;
+}
+.main-content-img {
+  float: left;
+  width: 157px;
+  height: 157px;
+}
+.main-content-descriaption a {
+  color: #fe5a1a;
+  font-size: 12px;
+  font-weight: bold;
+}
+.main-content-descriaption {
+  margin-top: 10%;
+  margin-left: 14%;
+}
+.main-content-item:hover .main-content-descriaption a {
+  color: #333;
+}

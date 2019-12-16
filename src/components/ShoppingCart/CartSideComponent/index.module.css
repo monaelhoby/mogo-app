@@ -1,0 +1,14 @@
+textarea {
+    resize: none;
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  
+   .h5 {
+    color: #333;
+    font-size: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 40px;
+    font-weight: 700; }

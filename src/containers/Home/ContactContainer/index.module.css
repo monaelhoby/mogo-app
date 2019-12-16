@@ -1,0 +1,38 @@
+.contacts .row div:last-of-type,
+.contacts .row div:nth-of-type(2) {
+  border-left: 1px solid #ebebeb; }
+
+  .contacts{
+    padding-top:60px;
+    padding-bottom:60px
+  }
+.contacts i {
+  font-size: 32px;
+  color: #d8d8d8; }
+
+.contacts i,
+.contacts img {
+  margin-bottom: 30px; }
+
+.contacts h3 {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+.contacts p {
+  color: #777;
+  width: 85%;
+  margin: auto; }
+
+.contacts p strong {
+  font-weight: bold;
+  color: #FE5A1A !important; }
+
+.contacts .row div {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+@media (max-width: 678) {
+  .contacts .row div:last-of-type,
+  .contacts .row div:nth-of-type(2) {
+    border-left: none; } }

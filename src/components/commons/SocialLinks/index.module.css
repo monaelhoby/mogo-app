@@ -1,0 +1,21 @@
+.sociallinks a {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px; }
+  
+ .sociallinks i {
+    color: #fff;
+    font-size: 25px;
+    line-height: 60px; }
+  
+ .sociallinks a:hover {
+    background: #fff; }
+  
+.sociallinks a:hover i {
+    color: #FE5A1A; }
+  
